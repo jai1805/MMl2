@@ -2,12 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import DetailPage from './DetailPage';
 import reportWebVitals from './reportWebVitals';
+import MovieCard from './components/common/movieCard';
+import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import GraphPage from './GraphPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        {/* <Route path='/' exact component={Home} /> */}
+        <Route path='' element={<App />} />
+        <Route path='/detailPage/:movie_id/:genre' element={<DetailPage />} />
+        <Route path='/movieCard' element={<MovieCard />} />
+        <Route path='/graphs' element={ < GraphPage />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

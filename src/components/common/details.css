@@ -1,0 +1,82 @@
+  body {
+      font-family: sans-serif;
+  }
+
+  .main-container {
+      margin: 0 auto;
+      width: 1000px;
+      border-radius: 25px;
+      padding-top: 15px;
+  }
+
+  .movie-details-container {
+      border: 2px solid #000;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .movie-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+
+  .movie-poster {
+      width: 300px;
+      height: 400px;
+  }
+
+  .movie-info {
+      font-size: 18px;
+  }
+
+  .movie-summary {
+      font-size: 14px;
+  }
+
+  .poster-div {
+      display: inline-block;
+      /* border: 1px solid red; */
+      vertical-align: left;
+      height: 400px;
+      width: 300px;
+      /* float: left; */
+      border-radius: 25px;
+  }
+
+  .overview {
+      display: inline-block;
+      /* border: 1px solid red; */
+      padding-left: 30px;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      width: 480px;
+      height: 390px;
+      /* float: right; */
+      border-radius: 25px;
+  }
+
+  .movie-media-container {
+      height: 400px;
+      width: fit-content;
+      border-radius: 25px;
+  }
+
+  .description {
+      font-size: small;
+      padding: 1px;
+  }
+
+  .img-poster {
+      height: 400px;
+      width: 300px;
+      border-radius: 25px;
+      margin-bottom: 0px;
+  }
+
+  .footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0px;
+    position: absolute;
+  }
